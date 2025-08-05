@@ -1,0 +1,123 @@
+/* Base layout */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 10px;
+  min-height: 100vh;
+}
+
+/* Container card */
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+  margin: 20px;
+  backdrop-filter: blur(10px);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #3f51b5;
+  margin-bottom: 20px;
+}
+
+/* Form & input structure */
+form,
+.todo-input {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #3f51b5;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #283593;
+}
+
+/* Success message */
+.success {
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+/* To-Do List */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #e8eaf6;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #c5cae9;
+}
+
+li button {
+  background-color: crimson;
+  font-size: 14px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: darkred;
+}
+
