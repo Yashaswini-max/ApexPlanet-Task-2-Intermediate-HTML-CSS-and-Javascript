@@ -13,3 +13,4 @@ Task 2 of my Web Development Internship at Apex Planet Software Pvt. Ltd. — De
 
 OUTPUT:
 
+<img width="1391" height="1040" alt="Image" src="https://github.com/user-attachments/assets/5f1dbcab-34e6-429b-beb7-8c7219919030" />
